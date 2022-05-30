@@ -10,9 +10,3 @@ The recommender we created in the previous section has some serious limitations.
 
 To improve the personalization of our recommendations, I plan to create an engine that computes similarity between movies based on certain metrics and recommends movies that are most similar to a specific movie that a user liked. This is also known as Content Based Filtering because we will be using movie metadata (or content) to build this engine.
 
-I plan to create two Content Based Recommenders based on:
-
-Taglines and movie synopses
-Cast, Crew, Keywords, and Genre of the Film
-
-This model's implementation is extremely simple. All we have to do is sort our movies by rating and popularity and display the top films on our list. As an extra step, we can include a genre argument to get the top movies in a specific genre.
