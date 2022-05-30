@@ -1,6 +1,7 @@
 # Movie-Recommender-System
 
 Simple Recommendation
+
 The Simple Recommender makes broad recommendations to each user based on movie popularity and (occasionally) genre. The basic idea behind this recommender is that movies that are more popular and critically acclaimed are more likely to be liked by the general public. This model does not provide user-specific recommendations.
 
 Recommender System Based on Content
